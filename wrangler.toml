@@ -11,7 +11,7 @@ ENABLE_SSH_SHARING = "true"
 # 用户无操作空闲超时：默认 30 分钟（支持 30m / 1h / 1800s / 纯数字按秒）；设为 "0" 禁用
 IDLE_TIMEOUT = "30m"
 # 是否强制登录后才能使用 SSH（GitHub 或单管理员密码会话均满足）；"false" 保持匿名直连可用
-REQUIRE_GITHUB_AUTH = "false"
+REQUIRE_GITHUB_AUTH = "true"
 # SSH 远端主机公钥签名严格校验：默认 fail-closed；仅本地调试老旧服务器时才允许 "false"
 STRICT_HOST_KEY_VERIFY = "true"
 
